@@ -11,6 +11,7 @@ import {
   Stats, 
   Testimonials 
 } from './components'
+import ScrollReveal from './components/ScrollReveal'
 import styles from './style'
 
 const App = () => {
@@ -28,14 +29,30 @@ const App = () => {
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats/>
-          <Business/>
-          <Billing/>
-          <CardDeal/>
-          <Testimonials/>
-          <Clients/>
-          <CTA/>
-          <Footer/>     
+          <ScrollReveal direction="fade" distance={30}>
+            <Stats/>
+          </ScrollReveal>
+          <ScrollReveal direction="up" distance={80}>
+            <Business/>
+          </ScrollReveal>
+          <ScrollReveal direction="right" distance={100}>
+            <Billing/>
+          </ScrollReveal>
+          <ScrollReveal direction="left" distance={100}>
+            <CardDeal/>
+          </ScrollReveal>
+          <ScrollReveal direction="up" distance={80}>
+            <Testimonials/>
+          </ScrollReveal>
+          <ScrollReveal direction="fade" distance={50}>
+            <Clients/>
+          </ScrollReveal>
+          <ScrollReveal direction="up" distance={80}>
+            <CTA/>
+          </ScrollReveal>
+          <ScrollReveal direction="fade" distance={30}>
+            <Footer/>     
+          </ScrollReveal>
         </div>
       </div>
     </div>

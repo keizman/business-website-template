@@ -38,23 +38,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "AI Innovation",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Cutting-edge AI solutions powered by advanced machine learning and neural networks",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% Secure",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Enterprise-grade security protocols to protect your data and AI models.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Scalable Platform",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Cloud-native architecture that scales seamlessly with your business needs.",
   },
 ];
 
@@ -62,25 +62,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Planktonfly's AI platform transformed our workflow. The advanced machine learning capabilities exceeded our expectations.",
+    name: "Dr. Sarah Chen",
+    title: "CTO, TechVenture",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "The cutting-edge AI solutions provided by Planktonfly helped us automate complex processes and improve efficiency by 300%.",
+    name: "Michael Zhang",
+    title: "CEO, InnovateAI",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Their expertise in frontier AI technology is unmatched. Planktonfly delivers solutions that truly push the boundaries.",
+    name: "Emily Rodriguez",
+    title: "Director, FutureSystems",
     img: people03,
   },
 ];
@@ -88,82 +88,86 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "AI Models Deployed",
+    value: "500+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Enterprise Clients",
+    value: "150+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "API Requests",
+    value: "1B+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Products",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "AI Platform",
+        link: "https://api.llmproai.xyz/",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "LLM API",
+        link: "https://api.llmproai.xyz/",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Machine Learning",
+        link: "https://api.llmproai.xyz/",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Solutions",
+        link: "https://api.llmproai.xyz/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "#",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Resources",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Documentation",
+        link: "https://api.llmproai.xyz/",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "API Reference",
+        link: "https://api.llmproai.xyz/",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "Support",
+        link: "mailto:support@planktonfly.com",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "#",
       },
       {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Newsletter",
+        link: "#",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Company",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "About Us",
+        link: "#",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Careers",
+        link: "#",
+      },
+      {
+        name: "Contact",
+        link: "mailto:support@planktonfly.com",
       },
     ],
   },
