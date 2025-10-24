@@ -38,11 +38,15 @@ const Hero = () => {
         <img
           src={robot}
           alt='AI Technology'
-          className='w-[100%] h-[100%] relative z-[5]'
+          className='w-[100%] h-[100%] relative z-[5] opacity-80 blur-sm hover:opacity-100 hover:blur-none transition-all duration-500'
+          style={{
+            filter: 'brightness(0.9) contrast(1.1) saturate(0.8)',
+            mixBlendMode: 'screen'
+          }}
         />
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
-        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"/>
+        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient opacity-60" />
+        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40 opacity-40" />
+        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient opacity-50"/>
       </div>
       <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted/>

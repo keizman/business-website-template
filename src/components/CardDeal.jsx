@@ -19,7 +19,11 @@ const CardDeal = () => {
         <img
           src={card}
           alt='AI API Integration'
-          className='w-[100%] h-[100%]'
+          className='w-[100%] h-[100%] opacity-85 blur-sm hover:opacity-100 hover:blur-none transition-all duration-500'
+          style={{
+            filter: 'brightness(0.9) contrast(1.1) saturate(0.8)',
+            mixBlendMode: 'soft-light'
+          }}
         />
       </div>
     </section>

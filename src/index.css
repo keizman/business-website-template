@@ -198,6 +198,12 @@ img {
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
+/* Hero image blending */
+.hero-image-blend {
+  filter: brightness(0.85) contrast(1.1) saturate(0.7) blur(1px);
+  mix-blend-mode: screen;
+}
+
 /* Add subtle parallax effect to backgrounds */
 .blue__gradient,
 .pink__gradient,
