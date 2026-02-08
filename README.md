@@ -72,6 +72,6 @@ See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed deployment instructions.
 ### Quick Deploy Options:
 - **Vercel**: Push to GitHub → Import to Vercel → Deploy
 - **Netlify**: Push to GitHub → Connect to Netlify → Deploy
-- **GitHub Pages**: Run `npm run deploy` (after configuration)
+- **GitHub Pages**: Free for public repos. Use the included GitHub Actions workflow and enable Pages in repo settings.
 
 For more details, check the [deployment guide](./DEPLOYMENT.md).
