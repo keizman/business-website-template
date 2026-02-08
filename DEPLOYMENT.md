@@ -75,36 +75,17 @@ netlify deploy --prod
 
 ### 方式三：GitHub Pages 部署
 
-适合静态网站部署。
+适合静态网站部署。GitHub Pages 对公开仓库免费（私有仓库需要付费计划）。
+
+本项目已提供 GitHub Actions 工作流：`.github/workflows/deploy-github-pages.yml`。
 
 #### 步骤：
-1. 安装 gh-pages：
-```bash
-npm install --save-dev gh-pages
-```
-
-2. 在 `package.json` 中添加部署脚本：
-```json
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "deploy": "npm run build && gh-pages -d dist"
-}
-```
-
-3. 在 `vite.config.js` 中添加 base 路径：
-```javascript
-export default defineConfig({
-  plugins: [react()],
-  base: '/your-repo-name/', // 替换为你的仓库名
-})
-```
-
-4. 部署：
-```bash
-npm run deploy
-```
+1. 将代码推送到 GitHub。
+2. 打开仓库 Settings → Pages → Source，选择 **GitHub Actions**。
+3. 推送到 `main`/`master` 分支后，工作流会自动构建并发布。
+4. 访问地址：
+   - 普通仓库：`https://<user>.github.io/<repo>/`
+   - 用户/组织站点（仓库名为 `<user>.github.io`）：`https://<user>.github.io/`
 
 ### 方式四：传统服务器部署
 
@@ -253,4 +234,3 @@ npm run preview
 ```
 
 访问 http://localhost:5173 查看效果！
-
